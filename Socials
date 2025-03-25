@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scrolling Socials</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+overflow: hidden;
+background: transparent;
+}
+
+.marquee-container {
+width: 100%;
+height: 50px; /* Adjust height as needed */
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+white-space: nowrap;
+}
+
+.marquee {
+display: inline-block;
+white-space: nowrap;
+animation: scroll 15s linear infinite;
+font-size: 24px; /* Adjust size */
+font-family: Arial, sans-serif;
+color: white; /* Adjust color */
+}
+
+@keyframes scroll {
+from {
+transform: translateX(100%);
+}
+to {
+transform: translateX(-100%);
+}
+}
+</style>
+</head>
+<body>
+<div class="marquee-container">
+<div class="marquee">
+Follow me on TikTok: @mannie_swav | Instagram: @mannie.swav | YouTube: @MannieSWAV |
+</div>
+</div>
+</body>
+</html>
